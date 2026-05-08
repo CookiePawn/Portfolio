@@ -4,6 +4,17 @@ import { motion } from 'framer-motion';
 import { ArrowUpRight, Mail, Sparkles } from 'lucide-react';
 import { FaGithub } from 'react-icons/fa';
 
+const experiences = [
+    {
+        company: 'GNAPSE',
+        role: 'Frontend Developer',
+        period: '2024.10 - Present',
+        description:
+            'Next.js와 React 기반 웹 서비스를 개발하고 있으며, 서비스 화면 개발, API 연동, 공통 UI 컴포넌트 개선, 사용자 경험 최적화 작업을 담당하고 있습니다.',
+        tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
+    },
+];
+
 const projects = [
     {
         title: 'Company Product Dashboard',
@@ -60,15 +71,19 @@ export default function HomePage() {
                 initial={{ opacity: 0, y: -20 }}
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.7, ease: 'easeOut' }}
-                className="fixed left-1/2 top-5 z-50 w-[calc(100%-2rem)] max-w-6xl -translate-x-1/2 rounded-full border border-white/10 bg-white/8 px-5 py-3 shadow-2xl shadow-black/20 backdrop-blur-xl"
+                className="fixed inset-x-4 top-5 z-50 mx-auto max-w-6xl rounded-full border border-white/10 bg-white/8 px-5 py-3 shadow-2xl shadow-black/20 backdrop-blur-xl"
             >
                 <nav className="flex items-center justify-between">
                     <a href="#" className="text-sm font-bold tracking-tight md:text-base">
                         Ahn<span className="text-violet-300">.dev</span>
                     </a>
+
                     <div className="hidden gap-6 text-sm text-zinc-300 md:flex">
                         <a href="#about" className="transition hover:text-white">
                             About
+                        </a>
+                        <a href="#experience" className="transition hover:text-white">
+                            Experience
                         </a>
                         <a href="#projects" className="transition hover:text-white">
                             Projects
@@ -77,6 +92,7 @@ export default function HomePage() {
                             Contact
                         </a>
                     </div>
+
                     <a
                         href="mailto:your-email@example.com"
                         className="rounded-full bg-white px-4 py-2 text-xs font-semibold text-zinc-950 transition hover:scale-105 hover:bg-violet-100"
@@ -106,9 +122,11 @@ export default function HomePage() {
                         <motion.h1
                             variants={fadeUp}
                             transition={{ duration: 0.8, ease: 'easeOut' }}
-                            className="text-5xl font-black leading-[1.05] tracking-tight md:text-7xl"
+                            className="whitespace-pre-line text-5xl font-black leading-[1.05] tracking-tight md:text-7xl"
                         >
-                            사용자 경험을\n              <span className="bg-gradient-to-r from-violet-300 via-fuchsia-300 to-cyan-300 bg-clip-text text-transparent">
+                            사용자 경험을{`
+`}
+                            <span className="bg-gradient-to-r from-violet-300 via-fuchsia-300 to-cyan-300 bg-clip-text text-transparent">
                                 인터랙션과 코드
                             </span>
                             로 설계합니다.
@@ -132,10 +150,16 @@ export default function HomePage() {
                                 className="group inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-bold text-zinc-950 shadow-xl shadow-violet-950/30 transition hover:scale-105 hover:bg-violet-100"
                             >
                                 프로젝트 보기
-                                <ArrowUpRight size={17} className="transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5" />
+                                <ArrowUpRight
+                                    size={17}
+                                    className="transition group-hover:translate-x-0.5 group-hover:-translate-y-0.5"
+                                />
                             </a>
+
                             <a
-                                href="https://github.com/your-github"
+                                href="https://github.com/cookiepawn"
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 className="inline-flex items-center gap-2 rounded-full border border-white/15 bg-white/5 px-6 py-3 text-sm font-bold text-white backdrop-blur transition hover:scale-105 hover:border-white/30 hover:bg-white/10"
                             >
                                 <FaGithub size={17} />
@@ -161,6 +185,7 @@ export default function HomePage() {
                                     <span className="h-3 w-3 rounded-full bg-yellow-400" />
                                     <span className="h-3 w-3 rounded-full bg-green-400" />
                                 </div>
+
                                 <div className="space-y-4 font-mono text-sm">
                                     <p className="text-zinc-500">const developer = &#123;</p>
                                     <p className="pl-5 text-violet-300">role: 'Frontend Developer',</p>
@@ -186,7 +211,11 @@ export default function HomePage() {
                     <motion.h2 variants={fadeUp} className="text-3xl font-black md:text-4xl">
                         About
                     </motion.h2>
-                    <motion.div variants={fadeUp} className="rounded-3xl border border-white/10 bg-white/[0.06] p-8 text-zinc-300 shadow-xl shadow-black/20 backdrop-blur">
+
+                    <motion.div
+                        variants={fadeUp}
+                        className="rounded-3xl border border-white/10 bg-white/[0.06] p-8 text-zinc-300 shadow-xl shadow-black/20 backdrop-blur"
+                    >
                         <p className="leading-8">
                             저는 비즈니스 요구사항을 사용자 관점의 화면과 기능으로 풀어내는 데 관심이 많습니다. 컴포넌트 재사용성, 성능 최적화, 명확한 상태 관리, 반응형 UI를 중요하게 생각합니다.
                         </p>
@@ -196,6 +225,69 @@ export default function HomePage() {
                     </motion.div>
                 </div>
             </motion.section>
+
+            <section id="experience" className="border-t border-white/10 px-6 py-28">
+                <div className="mx-auto max-w-5xl">
+                    <motion.div
+                        initial={{ opacity: 0, y: 30 }}
+                        whileInView={{ opacity: 1, y: 0 }}
+                        viewport={{ once: true, amount: 0.3 }}
+                        transition={{ duration: 0.7, ease: 'easeOut' }}
+                        className="mb-16"
+                    >
+                        <h2 className="text-3xl font-black md:text-4xl">Experience</h2>
+                        <p className="mt-3 text-zinc-400">지금까지의 커리어와 경험입니다.</p>
+                    </motion.div>
+
+                    <div className="relative">
+                        <div className="absolute left-4 top-0 h-full w-px bg-gradient-to-b from-violet-400/70 via-cyan-400/40 to-transparent" />
+
+                        <div className="space-y-10">
+                            {experiences.map((item, index) => (
+                                <motion.div
+                                    key={item.company}
+                                    initial={{ opacity: 0, x: -30 }}
+                                    whileInView={{ opacity: 1, x: 0 }}
+                                    viewport={{ once: true, amount: 0.3 }}
+                                    transition={{ duration: 0.6, delay: index * 0.12, ease: 'easeOut' }}
+                                    className="relative pl-14"
+                                >
+                                    <div className="absolute left-4 top-3 h-3 w-3 -translate-x-1/2 rounded-full bg-violet-300 shadow-[0_0_20px_rgba(167,139,250,0.9)]" />
+
+                                    <motion.div
+                                        whileHover={{ y: -6 }}
+                                        className="rounded-[2rem] border border-white/10 bg-white/[0.06] p-7 shadow-xl shadow-black/20 backdrop-blur-xl"
+                                    >
+                                        <div className="flex flex-col gap-3 md:flex-row md:items-center md:justify-between">
+                                            <div>
+                                                <h3 className="text-2xl font-bold">{item.company}</h3>
+                                                <p className="mt-1 text-violet-200">{item.role}</p>
+                                            </div>
+
+                                            <span className="w-fit rounded-full border border-white/10 bg-white/5 px-4 py-2 text-sm text-zinc-300">
+                                                {item.period}
+                                            </span>
+                                        </div>
+
+                                        <p className="mt-5 leading-7 text-zinc-300">{item.description}</p>
+
+                                        <div className="mt-6 flex flex-wrap gap-2">
+                                            {item.tech.map((tech) => (
+                                                <span
+                                                    key={tech}
+                                                    className="rounded-full bg-white/10 px-3 py-1 text-xs text-zinc-200"
+                                                >
+                                                    {tech}
+                                                </span>
+                                            ))}
+                                        </div>
+                                    </motion.div>
+                                </motion.div>
+                            ))}
+                        </div>
+                    </div>
+                </div>
+            </section>
 
             <motion.section
                 initial="hidden"
@@ -208,6 +300,7 @@ export default function HomePage() {
                     <motion.h2 variants={fadeUp} className="text-3xl font-black md:text-4xl">
                         Skills
                     </motion.h2>
+
                     <div className="mt-8 flex flex-wrap gap-3">
                         {skills.map((skill) => (
                             <motion.span
@@ -250,16 +343,27 @@ export default function HomePage() {
                             >
                                 <div className="absolute inset-x-0 top-0 h-px bg-gradient-to-r from-transparent via-violet-300 to-transparent opacity-0 transition group-hover:opacity-100" />
                                 <div className="absolute -right-16 -top-16 h-36 w-36 rounded-full bg-violet-500/20 blur-2xl transition group-hover:bg-cyan-500/20" />
+
                                 <div className="relative">
                                     <div className="mb-10 flex items-center justify-between">
                                         <span className="text-sm text-zinc-500">0{index + 1}</span>
                                         <ArrowUpRight className="text-zinc-500 transition group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-white" />
                                     </div>
-                                    <h3 className="text-xl font-bold group-hover:text-violet-200">{project.title}</h3>
-                                    <p className="mt-4 min-h-32 text-sm leading-6 text-zinc-400">{project.description}</p>
+
+                                    <h3 className="text-xl font-bold group-hover:text-violet-200">
+                                        {project.title}
+                                    </h3>
+
+                                    <p className="mt-4 min-h-32 text-sm leading-6 text-zinc-400">
+                                        {project.description}
+                                    </p>
+
                                     <div className="mt-6 flex flex-wrap gap-2">
                                         {project.tech.map((item) => (
-                                            <span key={item} className="rounded-full bg-white/8 px-3 py-1 text-xs text-zinc-300">
+                                            <span
+                                                key={item}
+                                                className="rounded-full bg-white/8 px-3 py-1 text-xs text-zinc-300"
+                                            >
                                                 {item}
                                             </span>
                                         ))}
@@ -281,12 +385,15 @@ export default function HomePage() {
             >
                 <div className="mx-auto max-w-6xl overflow-hidden rounded-[2.5rem] border border-white/10 bg-gradient-to-br from-violet-500/20 via-white/[0.06] to-cyan-500/20 p-8 shadow-2xl shadow-violet-950/30 backdrop-blur md:p-12">
                     <p className="text-sm font-bold uppercase tracking-[0.3em] text-violet-200">Contact</p>
+
                     <h2 className="mt-4 max-w-3xl text-3xl font-black md:text-5xl">
                         함께 좋은 웹 경험을 만들고 싶습니다.
                     </h2>
+
                     <p className="mt-5 max-w-2xl leading-8 text-zinc-300">
                         프로젝트 제안, 채용, 협업 문의는 아래 이메일로 연락 주세요.
                     </p>
+
                     <a
                         href="mailto:your-email@example.com"
                         className="mt-8 inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-bold text-zinc-950 transition hover:scale-105 hover:bg-violet-100"
