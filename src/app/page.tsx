@@ -17,7 +17,27 @@ const experiences = [
 
 const projects = [
     {
+        title: 'CNFT WITH',
+        year: '2023',
+        category: ['외주', 'WEB'],
+        description:
+            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
+        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+        href: 'https://cnftwith.netlify.app',
+    },
+    {
+        title: 'DS AUTO LINE',
+        year: '2024',
+        category: ['외주', 'WEB'],
+        description:
+            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
+        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+        href: 'https://dsautoline.netlify.app',
+    },
+    {
         title: '오늘의 한끼',
+        year: '2025',
+        category: ['개인', 'ANDROID'],
         description:
             'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
         tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
@@ -25,6 +45,8 @@ const projects = [
     },
     {
         title: 'PlayZone',
+        year: '2025',
+        category: ['개인', 'WEB', 'AI'],
         description:
             '개인 브랜딩과 프로젝트 소개를 위한 반응형 포트폴리오 사이트입니다. SEO, 접근성, 부드러운 인터랙션을 고려했습니다.',
         tech: ['Next.js', 'Framer Motion', 'Tailwind CSS'],
@@ -32,13 +54,26 @@ const projects = [
     },
     {
         title: '국회 추적기',
+        year: '2025',
+        category: ['개인', 'ANDROID', 'IOS'],
         description:
             '자주 사용하는 UI를 컴포넌트 단위로 정리하여 일관된 사용자 경험과 빠른 개발 흐름을 만들었습니다.',
         tech: ['React', 'Storybook', 'CSS Modules'],
         href: 'https://lawtracker.netlify.app',
     },
     {
+        title: 'Ask Anything',
+        year: '2025',
+        category: ['개인', 'ANDROID'],
+        description:
+            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
+        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+        href: 'https://play.google.com/store/apps/details?id=com.askanything.app',
+    },
+    {
         title: 'Lit Bit',
+        year: '2026',
+        category: ['개인', 'ANDROID', 'IOS'],
         description:
             'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
         tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
@@ -46,41 +81,26 @@ const projects = [
     },
     {
         title: 'react-native-image-exif',
+        year: '2026',
+        category: ['개인', 'LIBRARY'],
         description:
             'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
         tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
         href: 'https://npmjs.com/package/react-native-image-exif',
     },
     {
-        title: 'Ask Anything',
+        title: '망댕이(진행중)',
+        year: '2026',
+        category: ['개인', 'ANDROID', 'IOS'],
         description:
             'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
         tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
-        href: 'https://play.google.com/store/apps/details?id=com.askanything.app',
-    },
-    {
-        title: 'DS AUTO LINE',
-        description:
-            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
-        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
-        href: 'https://dsautoline.netlify.app',
-    },
-    {
-        title: 'CNFT WITH',
-        description:
-            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
-        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
-        href: 'https://cnftwith.netlify.app',
-    },
-    {
-        title: 'LOOTY',
-        description:
-            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
-        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
-        href: 'https://play.google.com/store/apps/details?id=com.gnapse.looty2',
+        href: '#',
     },
     {
         title: 'NUDO CAR',
+        year: '2024',
+        category: ['직장', 'ANDROID'],
         description:
             'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
         tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
@@ -88,24 +108,30 @@ const projects = [
     },
     {
         title: 'Countfit',
+        year: '2024',
+        category: ['직장', 'ANDROID', 'IOS'],
         description:
             'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
         tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
         href: 'https://play.google.com/store/apps/details?id=ai.countfit2',
     },
     {
+        title: 'LOOTY',
+        year: '2025',
+        category: ['직장', 'ANDROID', 'IOS'],
+        description:
+            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
+        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+        href: 'https://play.google.com/store/apps/details?id=com.gnapse.looty2',
+    },
+    {
         title: 'zeroon',
+        year: '2026',
+        category: ['직장', 'ANDROID', 'IOS'],
         description:
             'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
         tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
         href: 'https://play.google.com/store/apps/details?id=com.gnapse.the3.user',
-    },
-    {
-        title: '망댕이(진행중)',
-        description:
-            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
-        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
-        href: '#',
     },
 ];
 
@@ -422,6 +448,23 @@ export default function HomePage() {
                                         <ArrowUpRight className="text-zinc-500 transition group-hover:translate-x-1 group-hover:-translate-y-1 group-hover:text-white" />
                                     </div>
 
+                                    <div className="mb-4 flex items-center justify-between gap-3">
+                                        <span className="text-sm font-medium text-zinc-500">
+                                            {project.year}
+                                        </span>
+
+                                        <div className="flex flex-wrap justify-end gap-2">
+                                            {project.category.map((item) => (
+                                                <span
+                                                    key={item}
+                                                    className="rounded-full border border-cyan-400/20 bg-cyan-400/10 px-2.5 py-1 text-[10px] font-bold tracking-wide text-cyan-200"
+                                                >
+                                                    {item}
+                                                </span>
+                                            ))}
+                                        </div>
+                                    </div>
+
                                     <h3 className="text-xl font-bold group-hover:text-violet-200">
                                         {project.title}
                                     </h3>
@@ -459,7 +502,7 @@ export default function HomePage() {
                     <p className="text-sm font-bold uppercase tracking-[0.3em] text-violet-200">Contact</p>
 
                     <h2 className="mt-4 max-w-3xl text-3xl font-black md:text-5xl">
-                        함께 좋은 웹 경험을 만들고 싶습니다.
+                        함께 좋은 경험을 만들고 싶습니다.
                     </h2>
 
                     <p className="mt-5 max-w-2xl leading-8 text-zinc-300">
