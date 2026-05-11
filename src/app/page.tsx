@@ -189,7 +189,7 @@ export default function HomePage() {
                                 <div className="space-y-4 font-mono text-sm">
                                     <p className="text-zinc-500">const developer = &#123;</p>
                                     <p className="pl-5 text-violet-300">role: 'Frontend Developer',</p>
-                                    <p className="pl-5 text-cyan-300">stack: ['Next.js', 'React'],</p>
+                                    <p className="pl-5 text-cyan-300">stack: ['React Native', 'Next.js', 'React'],</p>
                                     <p className="pl-5 text-fuchsia-300">focus: 'User Experience',</p>
                                     <p className="text-zinc-500">&#125;</p>
                                 </div>
@@ -395,11 +395,11 @@ export default function HomePage() {
                     </p>
 
                     <a
-                        href="mailto:your-email@example.com"
+                        href="mailto:dev.jcahn@gmail.com"
                         className="mt-8 inline-flex items-center gap-2 rounded-full bg-white px-6 py-3 text-sm font-bold text-zinc-950 transition hover:scale-105 hover:bg-violet-100"
                     >
                         <Mail size={17} />
-                        your-email@example.com
+                        dev.jcahn@gmail.com
                     </a>
                 </div>
             </motion.section>
