@@ -10,8 +10,8 @@ const experiences = [
         role: 'Frontend Developer',
         period: '2024.10 - Present',
         description:
-            'Next.js와 React 기반 웹 서비스를 개발하고 있으며, 서비스 화면 개발, API 연동, 공통 UI 컴포넌트 개선, 사용자 경험 최적화 작업을 담당하고 있습니다.',
-        tech: ['Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
+            'React Native와 Next.js를 중심으로 앱/웹 서비스 화면 개발, API 연동, 공통 UI 컴포넌트 개선, 사용자 경험 최적화, 스토어 배포, 유지보수 작업을 담당하고 있습니다.',
+        tech: ['React Native', 'Next.js', 'React', 'TypeScript', 'Tailwind CSS'],
     },
 ];
 
@@ -21,8 +21,8 @@ const projects = [
         year: '2023',
         category: ['외주', 'WEB'],
         description:
-            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
-        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+            'CNFT WITH 기업 홈페이지 개발 외주로 프론트엔드 개발자로 참가하여 홈페이지 개발을 담당하였습니다.',
+        tech: ['HTML', 'CSS', 'JavaScript', 'EJS'],
         href: 'https://cnftwith.netlify.app',
     },
     {
@@ -30,53 +30,53 @@ const projects = [
         year: '2024',
         category: ['외주', 'WEB'],
         description:
-            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
-        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+            'DS AUTO LINE 기업 홈페이지 및 관리자 페이지 개발 외주로 프론트엔드 개발자로 참가하여 홈페이지 개발을 담당하였습니다.',
+        tech: ['React', 'JavaScript', 'CSS'],
         href: 'https://dsautoline.netlify.app',
     },
     {
-        title: '오늘의 한끼',
+        title: '오늘의한끼',
         year: '2025',
         category: ['개인', 'ANDROID'],
         description:
-            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
-        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+            '오늘의한끼 앱 서비스 개인 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
+        tech: ['React Native', 'TypeScript', 'Firebase', 'Google Admob', 'Google Analytics'],
         href: 'https://play.google.com/store/apps/details?id=com.foodtoday',
     },
     {
         title: 'PlayZone',
         year: '2025',
-        category: ['개인', 'WEB', 'AI'],
+        category: ['팀', 'WEB', 'AI'],
         description:
-            '개인 브랜딩과 프로젝트 소개를 위한 반응형 포트폴리오 사이트입니다. SEO, 접근성, 부드러운 인터랙션을 고려했습니다.',
-        tech: ['Next.js', 'Framer Motion', 'Tailwind CSS'],
+            'AI 놀이터 웹 서비스 팀 프로젝트로 웹 개발을 담당하였습니다.',
+        tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Gemini API', 'Firebase', 'Google Adsense', 'Google Analytics'],
         href: 'https://play-zone.netlify.app',
-    },
-    {
-        title: '국회 추적기',
-        year: '2025',
-        category: ['개인', 'ANDROID', 'IOS'],
-        description:
-            '자주 사용하는 UI를 컴포넌트 단위로 정리하여 일관된 사용자 경험과 빠른 개발 흐름을 만들었습니다.',
-        tech: ['React', 'Storybook', 'CSS Modules'],
-        href: 'https://lawtracker.netlify.app',
     },
     {
         title: 'Ask Anything',
         year: '2025',
-        category: ['개인', 'ANDROID'],
+        category: ['팀', 'ANDROID', 'AI'],
         description:
-            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
-        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+            'Ask Anything 앱 서비스 팀 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
+        tech: ['React Native', 'TypeScript', 'Gemini API', 'Google Admob', 'Google Analytics'],
         href: 'https://play.google.com/store/apps/details?id=com.askanything.app',
+    },
+    {
+        title: '국회 추적기',
+        year: '2025',
+        category: ['팀', 'ANDROID', 'IOS'],
+        description:
+            '국회 추적기 앱 서비스 팀 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
+        tech: ['React Native', 'TypeScript', 'Firebase', 'Google Admob', 'Google Analytics'],
+        href: 'https://lawtracker.netlify.app',
     },
     {
         title: 'Lit Bit',
         year: '2026',
-        category: ['개인', 'ANDROID', 'IOS'],
+        category: ['팀', 'ANDROID', 'IOS'],
         description:
-            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
-        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+            'Lit Bit 앱 서비스 팀 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
+        tech: ['React Native', 'TypeScript', 'React Query', 'HealthKit', 'HealthConnect', 'In App Purchases', 'Google Admob', 'Google Analytics'],
         href: 'https://play.google.com/store/apps/details?id=com.step.phrase',
     },
     {
@@ -84,53 +84,53 @@ const projects = [
         year: '2026',
         category: ['개인', 'LIBRARY'],
         description:
-            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
-        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+            'react-native-image-exif 라이브러리 개인 프로젝트로 라이브러리 개발 및 npm 패키지 배포를 담당하였습니다.',
+        tech: ['TypeScript', 'React Native 지원'],
         href: 'https://npmjs.com/package/react-native-image-exif',
     },
     {
         title: '망댕이(진행중)',
         year: '2026',
-        category: ['개인', 'ANDROID', 'IOS'],
+        category: ['팀', 'ANDROID', 'IOS'],
         description:
-            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
-        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+            '망댕이 앱 서비스 팀 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
+        tech: ['React Native', 'TypeScript', 'React Query'],
         href: '#',
     },
     {
         title: 'NUDO CAR',
         year: '2024',
-        category: ['직장', 'ANDROID'],
+        category: ['실무', 'ANDROID'],
         description:
-            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
-        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+            'NUDO CAR 앱 서비스 실무로 앱 유지보수 및 스토어 관리를 담당하였습니다.',
+        tech: ['Android Studio', 'Kotlin'],
         href: 'https://ahhasample08.imweb.me',
     },
     {
         title: 'Countfit',
         year: '2024',
-        category: ['직장', 'ANDROID', 'IOS'],
+        category: ['실무', 'ANDROID', 'IOS'],
         description:
-            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
-        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+            'Countfit 앱 서비스 실무로 앱/웹(랜딩, 관리자) 개발 및 스토어 배포를 담당하였습니다.',
+        tech: ['React Native', 'TypeScript', 'BLE', 'React Query', 'In App Purchases', 'Google Analytics', 'CodePush'],
         href: 'https://play.google.com/store/apps/details?id=ai.countfit2',
     },
     {
         title: 'LOOTY',
         year: '2025',
-        category: ['직장', 'ANDROID', 'IOS'],
+        category: ['실무', 'ANDROID', 'IOS', 'AI'],
         description:
-            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
-        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+            'LOOTY 앱 서비스 실무로 앱/웹(랜딩, 관리자) 개발 및 스토어 배포를 담당하였습니다.',
+        tech: ['React Native', 'TypeScript', 'React Query', 'Gemini API', 'Google Admob', 'Google Analytics', 'CodePush'],
         href: 'https://play.google.com/store/apps/details?id=com.gnapse.looty2',
     },
     {
         title: 'zeroon',
         year: '2026',
-        category: ['직장', 'ANDROID', 'IOS'],
+        category: ['실무', 'ANDROID', 'IOS'],
         description:
-            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
-        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+            'zeroon 앱 서비스 실무로 앱/웹(랜딩, 관리자) 개발 및 스토어 배포를 담당하였습니다.',
+        tech: ['React Native', 'TypeScript', 'React Query', 'BLE', 'TCP', 'Google Analytics', 'CodePush'],
         href: 'https://play.google.com/store/apps/details?id=com.gnapse.the3.user',
     },
 ];
@@ -435,7 +435,7 @@ export default function HomePage() {
                                 initial={{ opacity: 0, y: 32 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true, amount: 0.25 }}
-                                transition={{ duration: 0.6, delay: index * 0.12, ease: 'easeOut' }}
+                                transition={{ duration: 0.4, delay: index * 0.12, ease: 'easeOut' }}
                                 whileHover={{ y: -10, rotateX: 4, rotateY: -4 }}
                                 className="group relative overflow-hidden rounded-[2rem] border border-white/10 bg-white/[0.06] p-6 shadow-xl shadow-black/20 backdrop-blur transition"
                             >
