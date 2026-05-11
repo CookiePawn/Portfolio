@@ -17,24 +17,94 @@ const experiences = [
 
 const projects = [
     {
-        title: 'Company Product Dashboard',
+        title: '오늘의 한끼',
         description:
             'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
         tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
-        href: '#',
+        href: 'https://play.google.com/store/apps/details?id=com.foodtoday',
     },
     {
-        title: 'Portfolio Website',
+        title: 'PlayZone',
         description:
             '개인 브랜딩과 프로젝트 소개를 위한 반응형 포트폴리오 사이트입니다. SEO, 접근성, 부드러운 인터랙션을 고려했습니다.',
         tech: ['Next.js', 'Framer Motion', 'Tailwind CSS'],
-        href: '#',
+        href: 'https://play-zone.netlify.app',
     },
     {
-        title: 'UI Component System',
+        title: '국회 추적기',
         description:
             '자주 사용하는 UI를 컴포넌트 단위로 정리하여 일관된 사용자 경험과 빠른 개발 흐름을 만들었습니다.',
         tech: ['React', 'Storybook', 'CSS Modules'],
+        href: 'https://lawtracker.netlify.app',
+    },
+    {
+        title: 'Lit Bit',
+        description:
+            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
+        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+        href: 'https://play.google.com/store/apps/details?id=com.step.phrase',
+    },
+    {
+        title: 'react-native-image-exif',
+        description:
+            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
+        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+        href: 'https://npmjs.com/package/react-native-image-exif',
+    },
+    {
+        title: 'Ask Anything',
+        description:
+            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
+        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+        href: 'https://play.google.com/store/apps/details?id=com.askanything.app',
+    },
+    {
+        title: 'DS AUTO LINE',
+        description:
+            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
+        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+        href: 'https://dsautoline.netlify.app',
+    },
+    {
+        title: 'CNFT WITH',
+        description:
+            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
+        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+        href: 'https://cnftwith.netlify.app',
+    },
+    {
+        title: 'LOOTY',
+        description:
+            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
+        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+        href: 'https://play.google.com/store/apps/details?id=com.gnapse.looty2',
+    },
+    {
+        title: 'NUDO CAR',
+        description:
+            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
+        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+        href: 'https://ahhasample08.imweb.me',
+    },
+    {
+        title: 'Countfit',
+        description:
+            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
+        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+        href: 'https://play.google.com/store/apps/details?id=ai.countfit2',
+    },
+    {
+        title: 'zeroon',
+        description:
+            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
+        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
+        href: 'https://play.google.com/store/apps/details?id=com.gnapse.the3.user',
+    },
+    {
+        title: '망댕이(진행중)',
+        description:
+            'Next.js 기반 대시보드 UI를 개발하고, 반복되는 화면 패턴을 컴포넌트화하여 생산성과 유지보수성을 개선했습니다.',
+        tech: ['Next.js', 'TypeScript', 'React Query', 'Tailwind CSS'],
         href: '#',
     },
 ];
@@ -334,6 +404,8 @@ export default function HomePage() {
                             <motion.a
                                 key={project.title}
                                 href={project.href}
+                                target="_blank"
+                                rel="noopener noreferrer"
                                 initial={{ opacity: 0, y: 32 }}
                                 whileInView={{ opacity: 1, y: 0 }}
                                 viewport={{ once: true, amount: 0.25 }}
