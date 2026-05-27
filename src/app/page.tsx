@@ -89,6 +89,15 @@ const projects = [
         href: 'https://npmjs.com/package/react-native-image-exif',
     },
     {
+        title: 'SplitLink',
+        year: '2026',
+        category: ['개인', 'Android', 'IOS'],
+        description:
+            'SplitLink 앱 서비스 개인 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
+        tech: ['React Native', 'TypeScript'],
+        href: 'https://play.google.com/store/apps/details?id=com.basic19.splitlink',
+    },
+    {
         title: '망댕이(진행중)',
         year: '2026',
         category: ['팀', 'ANDROID', 'IOS'],
