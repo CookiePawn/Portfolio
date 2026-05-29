@@ -37,7 +37,7 @@ const projects = [
     {
         title: '오늘의한끼',
         year: '2025',
-        category: ['개인', 'ANDROID'],
+        category: ['개인', 'ANDROID', 'IOS'],
         description:
             '오늘의한끼 앱 서비스 개인 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
         tech: ['React Native', 'TypeScript', 'Firebase', 'Google Admob', 'Google Analytics'],
