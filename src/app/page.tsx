@@ -94,7 +94,7 @@ const projects = [
         category: ['개인', 'Android', 'IOS'],
         description:
             'SplitLink 앱 서비스 개인 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
-        tech: ['React Native', 'TypeScript'],
+        tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics'],
         href: 'https://play.google.com/store/apps/details?id=com.basic19.splitlink',
     },
     {
@@ -103,8 +103,17 @@ const projects = [
         category: ['개인', 'Android', 'IOS'],
         description:
             'Dozle 앱 서비스 개인 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
-        tech: ['React Native', 'TypeScript'],
+        tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics'],
         href: 'https://play.google.com/store/apps/details?id=com.basic19.dozle',
+    },
+    {
+        title: '두리번',
+        year: '2026',
+        category: ['개인', 'ANDROID', 'IOS'],
+        description:
+            '두리번 앱 서비스 개인 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
+        tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics'],
+        href: '#',
     },
     {
         title: '망댕이(진행중)',
