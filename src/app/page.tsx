@@ -118,10 +118,10 @@ const projects = [
     {
         title: '언저리',
         year: '2026',
-        category: ['개인', 'ANDROID', 'IOS', 'CloudFlare R2', 'SQLite'],
+        category: ['개인', 'ANDROID', 'IOS'],
         description:
             '두리번 앱 서비스 개인 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
-        tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics'],
+        tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics', 'CloudFlare R2', 'SQLite'],
         href: 'https://play.google.com/store/apps/details?id=com.basic19.eonjeori',
     },
     {
