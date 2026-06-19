@@ -116,6 +116,15 @@ const projects = [
         href: 'https://play.google.com/store/apps/details?id=com.basic19.duribeon',
     },
     {
+        title: '언저리',
+        year: '2026',
+        category: ['개인', 'ANDROID', 'IOS', 'CloudFlare R2', 'SQLite'],
+        description:
+            '두리번 앱 서비스 개인 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
+        tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics'],
+        href: 'https://play.google.com/store/apps/details?id=com.basic19.eonjeori',
+    },
+    {
         title: '망댕이(진행중)',
         year: '2026',
         category: ['팀', 'ANDROID', 'IOS'],
