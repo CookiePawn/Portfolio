@@ -21,8 +21,8 @@ const projects = [
         year: '2023',
         category: ['외주', 'WEB'],
         description:
-            'CNFT WITH 기업 홈페이지 개발 외주로 프론트엔드 개발자로 참가하여 홈페이지 개발을 담당하였습니다.',
-        tech: ['HTML', 'CSS', 'JavaScript', 'EJS'],
+            'CNFT 관련 사업과 기업 정보를 소개하는 공식 홈페이지입니다. 외주 프론트엔드 개발자로 참여하여 반응형 UI 구현과 웹 페이지 개발을 담당하였습니다.',
+        tech: ['HTML', 'CSS', 'JavaScript', 'EJS', 'Cloud Flare', 'Bithumb API'],
         href: 'https://cnftwith.netlify.app',
     },
     {
@@ -30,7 +30,7 @@ const projects = [
         year: '2024',
         category: ['외주', 'WEB'],
         description:
-            'DS AUTO LINE 기업 홈페이지 및 관리자 페이지 개발 외주로 프론트엔드 개발자로 참가하여 홈페이지 개발을 담당하였습니다.',
+            '자동차 관련 기업 정보와 서비스를 제공하는 기업 홈페이지 및 관리자 시스템입니다. 외주 프론트엔드 개발자로 참여하여 사용자 페이지와 관리자 페이지의 UI 개발을 담당하였습니다.',
         tech: ['React', 'JavaScript', 'CSS'],
         href: 'https://dsautoline.netlify.app',
     },
@@ -39,8 +39,8 @@ const projects = [
         year: '2025',
         category: ['개인', 'ANDROID', 'IOS'],
         description:
-            '오늘의한끼 앱 서비스 개인 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
-        tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics'],
+            '매일 무엇을 먹을지 고민하는 사용자를 위한 메뉴 추천 앱입니다. 개인 프로젝트로 기획부터 React Native 앱 개발, 광고 및 분석 도구 연동, 스토어 출시까지 전 과정을 담당하였습니다.',
+        tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics', 'Naver API HUB'],
         href: 'https://play.google.com/store/apps/details?id=com.foodtoday',
     },
     {
@@ -48,7 +48,7 @@ const projects = [
         year: '2025',
         category: ['팀', 'WEB', 'AI'],
         description:
-            'AI 놀이터 웹 서비스 팀 프로젝트로 웹 개발을 담당하였습니다.',
+            '다양한 AI 기능을 가볍게 체험할 수 있는 웹 기반 AI 놀이터입니다. 팀 프로젝트에서 웹 개발을 담당했으며, Gemini API를 활용한 AI 기능과 반응형 화면을 구현하였습니다.',
         tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Gemini API', 'Google Adsense', 'Google Analytics'],
         href: 'https://play-zone.netlify.app',
     },
@@ -57,7 +57,7 @@ const projects = [
         year: '2025',
         category: ['팀', 'ANDROID', 'AI'],
         description:
-            'Ask Anything 앱 서비스 팀 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
+            '사용자가 입력한 질문에 AI가 답변을 제공하는 모바일 서비스입니다. 팀 프로젝트에서 React Native 앱 개발과 Gemini API 연동, 광고 및 분석 도구 적용, 스토어 배포를 담당하였습니다.',
         tech: ['React Native', 'TypeScript', 'Gemini API', 'Google Admob', 'Google Analytics'],
         href: 'https://play.google.com/store/apps/details?id=com.askanything.app',
     },
@@ -66,8 +66,8 @@ const projects = [
         year: '2025',
         category: ['팀', 'ANDROID', 'IOS'],
         description:
-            '국회 추적기 앱 서비스 팀 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
-        tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics'],
+            '국회의원과 국회 활동 정보를 모바일에서 쉽게 확인할 수 있도록 제공하는 앱입니다. 팀 프로젝트에서 크로스 플랫폼 앱 개발과 스토어 배포를 담당하였습니다.',
+        tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics', 'Google FireStore', '열린국회정보 API'],
         href: 'https://lawtracker.netlify.app',
     },
     {
@@ -75,7 +75,7 @@ const projects = [
         year: '2026',
         category: ['팀', 'ANDROID', 'IOS'],
         description:
-            'Lit Bit 앱 서비스 팀 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
+            '일상 속 걸음과 소설을 결합해 사용자에게 동기를 제공하는 모바일 앱입니다. 팀 프로젝트에서 React Native 앱 개발과 HealthKit·Health Connect 연동, 인앱 결제 및 스토어 배포를 담당하였습니다.',
         tech: ['React Native', 'TypeScript', 'React Query', 'HealthKit', 'HealthConnect', 'In App Purchases', 'Google Admob', 'Google Analytics'],
         href: 'https://play.google.com/store/apps/details?id=com.step.phrase',
     },
@@ -84,7 +84,7 @@ const projects = [
         year: '2026',
         category: ['개인', 'LIBRARY'],
         description:
-            'react-native-image-exif 라이브러리 개인 프로젝트로 라이브러리 개발 및 npm 패키지 배포를 담당하였습니다.',
+            'React Native 환경에서 이미지의 EXIF 메타데이터를 조회할 수 있도록 개발한 오픈소스 라이브러리입니다. 라이브러리 설계와 네이티브 연동, TypeScript 타입 정의, npm 패키지 배포를 담당하였습니다.',
         tech: ['TypeScript', 'React Native 지원'],
         href: 'https://npmjs.com/package/react-native-image-exif',
     },
@@ -93,7 +93,7 @@ const projects = [
         year: '2026',
         category: ['개인', 'Android', 'IOS'],
         description:
-            'SplitLink 앱 서비스 개인 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
+            '비용 정산을 돕는 모바일 앱입니다. 개인 프로젝트로 앱 기획과 React Native 개발, 광고 및 분석 도구 연동, 스토어 출시를 담당하였습니다.',
         tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics'],
         href: 'https://play.google.com/store/apps/details?id=com.basic19.splitlink',
     },
@@ -102,7 +102,7 @@ const projects = [
         year: '2026',
         category: ['개인', 'Android', 'IOS'],
         description:
-            'Dozle 앱 서비스 개인 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
+            '사용자의 집중력을 효율적으로 관리할 수 있도록 만든 모바일 앱입니다. 개인 프로젝트로 서비스 기획부터 React Native 앱 개발, 광고 및 분석 도구 연동, 스토어 배포까지 진행하였습니다.',
         tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics'],
         href: 'https://play.google.com/store/apps/details?id=com.basic19.dozle',
     },
@@ -111,7 +111,7 @@ const projects = [
         year: '2026',
         category: ['개인', 'ANDROID', 'IOS'],
         description:
-            '두리번 앱 서비스 개인 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
+            '반복되는 일상에 작은 변화를 더할 수 있도록 매일 새로운 행동을 제안하는 앱입니다. 개인 프로젝트로 서비스 기획, React Native 앱 개발, 광고 및 분석 도구 연동, 스토어 출시를 담당하였습니다.',
         tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics'],
         href: 'https://play.google.com/store/apps/details?id=com.basic19.duribeon',
     },
@@ -120,7 +120,7 @@ const projects = [
         year: '2026',
         category: ['개인', 'ANDROID', 'IOS'],
         description:
-            '두리번 앱 서비스 개인 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
+            '사용자의 대략적인 자산을 통해 부동산 데이터를 쉽고 재미있게 확인할 수 있도록 만든 모바일 앱입니다. 개인 프로젝트로 React Native 앱 개발과 SQLite 기반 로컬 데이터 관리, Cloudflare R2를 활용한 파일 저장 기능을 구현하였습니다.',
         tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics', 'CloudFlare R2', 'SQLite'],
         href: 'https://play.google.com/store/apps/details?id=com.basic19.eonjeori',
     },
@@ -129,7 +129,7 @@ const projects = [
         year: '2026',
         category: ['개인', 'ANDROID', 'IOS'],
         description:
-            '모으고 앱 서비스 개인 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
+            '사진 속 대상을 인식하고 분류해 사용자의 수집 기록을 관리할 수 있도록 돕는 모바일 앱입니다. 개인 프로젝트로 앱 개발과 SQLite 데이터 관리, TFLite·MobileNet 기반 이미지 분류, ML Kit 번역 및 피사체 분리 기능을 구현하였습니다.',
         tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics', 'SQLite', 'TFLite', 'MobileNet V1 1.0 224 Quantized', 'ML Kit Language Translator', 'ML Kit Subject Segmentation'],
         href: 'https://play.google.com/store/apps/details?id=com.basic19.mougo',
     },
@@ -138,25 +138,16 @@ const projects = [
         year: '2026',
         category: ['개인', 'ANDROID', 'IOS'],
         description:
-            '세곳 앱 서비스 개인 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
-        tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics'],
+            '사용자가 가고 싶은 장소를 간편하게 검색하고 관리할 수 있도록 만든 모바일 앱입니다. 개인 프로젝트로 서비스 기획부터 React Native 앱 개발, 광고 및 분석 도구 연동, 스토어 출시까지 담당하였습니다.',
+        tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics', 'Naver API HUB '],
         href: 'https://play.google.com/store/apps/details?id=com.basic19.moum',
-    },
-    {
-        title: '망댕이(진행중)',
-        year: '2026',
-        category: ['팀', 'ANDROID', 'IOS'],
-        description:
-            '망댕이 앱 서비스 팀 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
-        tech: ['React Native', 'TypeScript', 'React Query'],
-        href: '#',
     },
     {
         title: 'NUDO CAR',
         year: '2024',
         category: ['실무', 'ANDROID'],
         description:
-            'NUDO CAR 앱 서비스 실무로 앱 유지보수 및 스토어 관리를 담당하였습니다.',
+            '자동차 관련 기능과 정보를 제공하는 Android 모바일 서비스입니다. 실무 프로젝트에서 Kotlin 기반 앱의 기능 유지보수, 오류 대응, 배포 버전 관리 및 Google Play 스토어 운영을 담당하였습니다.',
         tech: ['Android Studio', 'Kotlin'],
         href: 'https://ahhasample08.imweb.me',
     },
@@ -165,7 +156,7 @@ const projects = [
         year: '2024',
         category: ['실무', 'ANDROID', 'IOS'],
         description:
-            'Countfit 앱 서비스 실무로 앱/웹(랜딩, 관리자) 개발 및 스토어 배포를 담당하였습니다.',
+            'BLE 기기와 연동해 운동 데이터를 측정하고 관리하는 피트니스 서비스입니다. 실무에서 React Native 앱과 랜딩 페이지, 관리자 페이지를 개발했으며 BLE 통신, 인앱 결제, 데이터 분석 및 스토어 배포를 담당하였습니다.',
         tech: ['React Native', 'TypeScript', 'BLE', 'React Query', 'In App Purchases', 'Google Analytics', 'CodePush'],
         href: 'https://play.google.com/store/apps/details?id=ai.countfit2',
     },
@@ -174,7 +165,7 @@ const projects = [
         year: '2025',
         category: ['실무', 'ANDROID', 'IOS', 'AI'],
         description:
-            'LOOTY 앱 서비스 실무로 앱/웹(랜딩, 관리자) 개발 및 스토어 배포를 담당하였습니다.',
+            'AI를 활용해 사용자에게 맞춤형 콘텐츠와 기능을 제공하는 모바일 서비스입니다. 실무에서 React Native 앱과 랜딩·관리자 웹을 개발했으며 Gemini API 연동, 광고 및 분석 도구 적용, 스토어 배포를 담당하였습니다.',
         tech: ['React Native', 'TypeScript', 'React Query', 'Gemini API', 'Google Admob', 'Google Analytics', 'CodePush'],
         href: 'https://play.google.com/store/apps/details?id=com.gnapse.looty2',
     },
@@ -183,8 +174,8 @@ const projects = [
         year: '2026',
         category: ['실무', 'ANDROID', 'IOS'],
         description:
-            'zeroon 앱 서비스 실무로 앱/웹(랜딩, 관리자) 개발 및 스토어 배포를 담당하였습니다.',
-        tech: ['React Native', 'TypeScript', 'React Query', 'BLE', 'TCP', 'Google Analytics', 'CodePush'],
+            'BLE 및 TCP 통신을 통해 외부 기기와 연결하고 상태를 제어하는 모바일 서비스입니다. 실무에서 React Native 앱과 랜딩·관리자 웹을 개발했으며 기기 통신, 서버 상태 관리, 분석 도구 연동 및 스토어 배포를 담당하였습니다.',
+        tech: ['React Native', 'TypeScript', 'React Query', 'BLE', 'TCP', 'DFU', 'Google Analytics', 'CodePush'],
         href: 'https://play.google.com/store/apps/details?id=com.gnapse.the3.user',
     },
 ];
