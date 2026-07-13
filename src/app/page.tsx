@@ -40,7 +40,7 @@ const projects = [
         category: ['개인', 'ANDROID', 'IOS'],
         description:
             '오늘의한끼 앱 서비스 개인 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
-        tech: ['React Native', 'TypeScript', 'Firebase', 'Google Admob', 'Google Analytics'],
+        tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics'],
         href: 'https://play.google.com/store/apps/details?id=com.foodtoday',
     },
     {
@@ -49,7 +49,7 @@ const projects = [
         category: ['팀', 'WEB', 'AI'],
         description:
             'AI 놀이터 웹 서비스 팀 프로젝트로 웹 개발을 담당하였습니다.',
-        tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Gemini API', 'Firebase', 'Google Adsense', 'Google Analytics'],
+        tech: ['Next.js', 'TypeScript', 'Tailwind CSS', 'Gemini API', 'Google Adsense', 'Google Analytics'],
         href: 'https://play-zone.netlify.app',
     },
     {
@@ -67,7 +67,7 @@ const projects = [
         category: ['팀', 'ANDROID', 'IOS'],
         description:
             '국회 추적기 앱 서비스 팀 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
-        tech: ['React Native', 'TypeScript', 'Firebase', 'Google Admob', 'Google Analytics'],
+        tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics'],
         href: 'https://lawtracker.netlify.app',
     },
     {
@@ -132,6 +132,15 @@ const projects = [
             '모으고 앱 서비스 개인 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
         tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics', 'SQLite', 'TFLite', 'MobileNet V1 1.0 224 Quantized', 'ML Kit Language Translator', 'ML Kit Subject Segmentation'],
         href: 'https://play.google.com/store/apps/details?id=com.basic19.mougo',
+    },
+    {
+        title: '세곳',
+        year: '2026',
+        category: ['개인', 'ANDROID', 'IOS'],
+        description:
+            '세곳 앱 서비스 개인 프로젝트로 앱 개발 및 스토어 배포를 담당하였습니다.',
+        tech: ['React Native', 'TypeScript', 'Google Admob', 'Google Analytics'],
+        href: 'https://play.google.com/store/apps/details?id=com.basic19.moum',
     },
     {
         title: '망댕이(진행중)',
