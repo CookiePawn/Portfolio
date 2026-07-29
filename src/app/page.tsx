@@ -278,7 +278,7 @@ export default function HomePage() {
                             transition={{ duration: 0.8, ease: 'easeOut' }}
                             className="mt-7 max-w-2xl text-lg leading-8 text-zinc-300"
                         >
-                            2024년 10월부터 현재까지 프론트엔드 개발자로 일하며 Next.js와 React 기반 웹 서비스를 개발하고 있습니다. 보기 좋은 UI뿐 아니라 유지보수하기 좋은 구조와 자연스러운 사용자 흐름을 함께 고민합니다.
+                            2024년 10월부터 현재까지 프론트엔드 개발자로 일하며 Next.js와 React 기반 웹/앱 서비스를 개발하고 있습니다. 보기 좋은 UI뿐 아니라 유지보수하기 좋은 구조와 자연스러운 사용자 흐름을 함께 고민합니다.
                         </motion.p>
 
                         <motion.div
